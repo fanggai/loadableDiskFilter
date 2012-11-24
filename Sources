@@ -1,0 +1,8 @@
+TARGETNAME=diskFilter
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(DDKDIR)\inc;\
+         $(DDKDIR)\inc\ddk;\
+
+SOURCES=Driver.c\
